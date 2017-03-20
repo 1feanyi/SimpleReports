@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RptDataSource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="dscCMCSQL">
+  <ConnectionProperties>
+    <Extension>SQL</Extension>
+    <ConnectString>Data Source=DEVSERV\SQLEXPRESS;Initial Catalog=CMCSQL03</ConnectString>
+  </ConnectionProperties>
+  <DataSourceID>ffa54925-14f9-4032-b9d8-dfb3135d75af</DataSourceID>
+</RptDataSource>

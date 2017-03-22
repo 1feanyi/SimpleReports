@@ -35,13 +35,13 @@
         </QueryParameters>
         <CommandText>SELECT     tblClient.ClientID, tblClient.ClientName, tblDivision.DivisionName, tblDivision.BusinessUnit, tblProductDetail.Division_MDB, tblProductDetail.ProductName, 
                       tblProductDetail.ProductCode, tblProductDetail.ProductDetailID, tblProductDetail.ProductMasterID, tblProductMaster.MasterCode, tblProductMaster.MasterName, 
-                      tblPMNote.NoteDate, tblPMNote.Notes
+                      tblInvPMLogNote.NoteDate, tblInvPMLogNote.Notes
 FROM         tblProductDetail INNER JOIN
                       tblProductMaster ON tblProductDetail.ProductMasterID = tblProductMaster.ProductMasterID INNER JOIN
                       tblClient ON tblProductMaster.ClientID = tblClient.ClientID INNER JOIN
-                      tblPMNote ON tblProductMaster.ProductMasterID = tblPMNote.ProductMasterID INNER JOIN
-                      tblDivision ON tblProductDetail.DivisionID = tblDivision.DivisionID
-WHERE     (tblPMNote.NoteDate BETWEEN @StartDate AND @EndDate) AND (tblClient.ClientID = @Client)
+                      tblDivision ON tblProductDetail.DivisionID = tblDivision.DivisionID INNER JOIN
+                      tblInvPMLogNote ON tblProductDetail.ProductMasterID = tblInvPMLogNote.ProductMasterID
+WHERE     (tblClient.ClientID = @Client) AND (tblInvPMLogNote.NoteDate BETWEEN @StartDate AND @EndDate)
 ORDER BY tblDivision.DivisionName, tblProductDetail.ProductName</CommandText>
       </Query>
       <Fields>

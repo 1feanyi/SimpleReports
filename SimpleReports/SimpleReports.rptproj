@@ -10,6 +10,34 @@
   <DataSets />
   <Reports>
     <ProjectItem>
+      <Name>init_ProductsCAS.rdl</Name>
+      <FullPath>init_ProductsCAS.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>init_ProductsClientHarmonized.rdl</Name>
+      <FullPath>init_ProductsClientHarmonized.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>init_ProductsClientMSDSDate.rdl</Name>
+      <FullPath>init_ProductsClientMSDSDate.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>init_ProductsClientPackages.rdl</Name>
+      <FullPath>init_ProductsClientPackages.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>init_ProductsClientProductsLst.rdl</Name>
+      <FullPath>init_ProductsClientProductsLst.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>init_ProductsHazardList.rdl</Name>
+      <FullPath>init_ProductsHazardList.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>init_ProductsSampleGuideInfo.rdl</Name>
+      <FullPath>init_ProductsSampleGuideInfo.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
       <Name>InventoryExpiryReport.rdl</Name>
       <FullPath>InventoryExpiryReport.rdl</FullPath>
     </ProjectItem>
@@ -50,30 +78,6 @@
       <FullPath>OrdersSummary.rdl</FullPath>
     </ProjectItem>
     <ProjectItem>
-      <Name>init_ProductsCAS.rdl</Name>
-      <FullPath>init_ProductsCAS.rdl</FullPath>
-    </ProjectItem>
-    <ProjectItem>
-      <Name>init_ProductsClientHarmonized.rdl</Name>
-      <FullPath>init_ProductsClientHarmonized.rdl</FullPath>
-    </ProjectItem>
-    <ProjectItem>
-      <Name>init_ProductsClientMSDSDate.rdl</Name>
-      <FullPath>init_ProductsClientMSDSDate.rdl</FullPath>
-    </ProjectItem>
-    <ProjectItem>
-      <Name>init_ProductsClientPackages.rdl</Name>
-      <FullPath>init_ProductsClientPackages.rdl</FullPath>
-    </ProjectItem>
-    <ProjectItem>
-      <Name>init_ProductsClientProductsLst.rdl</Name>
-      <FullPath>init_ProductsClientProductsLst.rdl</FullPath>
-    </ProjectItem>
-    <ProjectItem>
-      <Name>init_ProductsHazardList.rdl</Name>
-      <FullPath>init_ProductsHazardList.rdl</FullPath>
-    </ProjectItem>
-    <ProjectItem>
       <Name>ProductsProfileListExport.rdl</Name>
       <FullPath>ProductsProfileListExport.rdl</FullPath>
     </ProjectItem>
@@ -82,16 +86,16 @@
       <FullPath>ProductsSampleGuideExport.rdl</FullPath>
     </ProjectItem>
     <ProjectItem>
-      <Name>init_ProductsSampleGuideInfo.rdl</Name>
-      <FullPath>init_ProductsSampleGuideInfo.rdl</FullPath>
-    </ProjectItem>
-    <ProjectItem>
       <Name>ProductsSetupReport.rdl</Name>
       <FullPath>ProductsSetupReport.rdl</FullPath>
     </ProjectItem>
     <ProjectItem>
       <Name>ProductsSGRevDate.rdl</Name>
       <FullPath>ProductsSGRevDate.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>OrdersSPSExport.rdl</Name>
+      <FullPath>OrdersSPSExport.rdl</FullPath>
     </ProjectItem>
   </Reports>
   <Configurations>
